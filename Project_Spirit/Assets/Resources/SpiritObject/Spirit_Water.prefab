@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3519865668413536256, guid: 4f560a353fe11f34689f443fca3e7711, type: 3}
       propertyPath: baseSkin
-      value: Air_Lv1
+      value: Water_Lv1
       objectReference: {fileID: 0}
     - target: {fileID: 3519865668413536256, guid: 4f560a353fe11f34689f443fca3e7711, type: 3}
       propertyPath: capSlot.Array.size

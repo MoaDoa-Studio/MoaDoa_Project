@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 4002668604676125346}
     - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
       propertyPath: baseSkin
-      value: Air_Lv1
+      value: Fire_Lv1
       objectReference: {fileID: 0}
     - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
       propertyPath: IdleAnimaitonName

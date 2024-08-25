@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentSlotName: 
   currentAttachmentName: 
-  baseSkin: Air_Lv1
+  baseSkin: Soil_Lv2
   capSlot:
   - Cap
   - Cap_fedora

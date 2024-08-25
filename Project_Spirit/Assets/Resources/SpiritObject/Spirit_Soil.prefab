@@ -38,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6376813310599206530, guid: 1a2933dccd6e5ec41ba69a9d9cd80b70, type: 3}
       propertyPath: baseSkin
-      value: Air_Lv1
+      value: Soil_Lv1
       objectReference: {fileID: 0}
     - target: {fileID: 6376813310599206530, guid: 1a2933dccd6e5ec41ba69a9d9cd80b70, type: 3}
       propertyPath: skeletonDataAssets.Array.data[2]
