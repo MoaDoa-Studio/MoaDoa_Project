@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7782329453051513182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 310724314950412210}
+  - component: {fileID: 5784416843909364695}
+  - component: {fileID: 1541606644205865402}
+  - component: {fileID: 6405010417836666242}
+  - component: {fileID: 223681143378521360}
+  - component: {fileID: 6304335386131918961}
+  - component: {fileID: 1547893462773229685}
+  - component: {fileID: -6057536512762663111}
+  - component: {fileID: 2987368875521967598}
+  - component: {fileID: -6815071933240930451}
+  m_Layer: 0
+  m_Name: Spirit_Air
+  m_TagString: Spirit
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &310724314950412210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5784416843909364695
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1541606644205865402
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ca8b28611ea7cf64d89b483ed699b307, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6405010417836666242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: 3e99635a09ac4cb4f8f86230fb18a760, type: 2}
+  initialSkinName: Air_Lv1
+  fixPrefabOverrideViaMeshFilter: 2
+  initialFlipX: 0
+  initialFlipY: 0
+  updateWhenInvisible: 3
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 1
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  fixDrawOrder: 0
+  addNormals: 0
+  calculateTangents: 0
+  maskInteraction: 0
+  maskMaterials:
+    materialsMaskDisabled: []
+    materialsInsideMask: []
+    materialsOutsideMask: []
+  disableRenderingOnOverride: 1
+  updateTiming: 1
+  unscaledTime: 0
+  _animationName: Front_walk
+  loop: 1
+  timeScale: 1
+--- !u!114 &223681143378521360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6210758930e746a4e814da6c415f4977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSlotName: 
+  currentAttachmentName: 
+  baseSkin: Air_Lv1
+  capSlot:
+  - Cap
+  - Cap_fedora
+  - Cap_fedora_2
+  - Cap_Graduation
+  - Cap_Graduation_2
+  activecapslotIndex: 0
+  capAttachment:
+  - Cap_clerical
+  - Cap_knight
+  - Cap_safety
+  - Cap_Viking
+  - Cap_fedora_2
+  - Cap_Graduation
+  - Cap_Graduation_2
+  activeCapattachmentIndex: 0
+  skeletonDataAssets:
+  - {fileID: 11400000, guid: 3e99635a09ac4cb4f8f86230fb18a760, type: 2}
+  - {fileID: 11400000, guid: c462f7c2f11f8c9439d4f62b2fa48b2f, type: 2}
+  - {fileID: 11400000, guid: 06dfbfb8d90faa64a807e61193501da1, type: 2}
+  slotProperty: Cap
+  attachmentProperty: Cap_knight
+  disappeareventName: 
+  statesAndAnimations:
+  - stateName: Front_idle
+    animation: {fileID: 11400000, guid: fb8845ba7c73dd84f97e2b45348ed867, type: 2}
+  - stateName: Front_walk
+    animation: {fileID: 11400000, guid: c204a8f1c32a8814c9a31ecb1ebc5634, type: 2}
+  - stateName: Front_crash
+    animation: {fileID: 11400000, guid: 7dafedc68dce14b42af0dca94f56ec87, type: 2}
+  - stateName: Front_crash_Air
+    animation: {fileID: 11400000, guid: 4924c907520cd5548a81857a41d6aaca, type: 2}
+  - stateName: Front_crash_Water
+    animation: {fileID: 11400000, guid: 1d013c0fc18d2d84390ee4fd43042e20, type: 2}
+  - stateName: Front_disappear
+    animation: {fileID: 11400000, guid: 897d136c4cf018b4b97ee10027cc6ac5, type: 2}
+  - stateName: Front_enter_fm
+    animation: {fileID: 11400000, guid: 0992c94b701f5e84a9fecd7dcbffd9a9, type: 2}
+  - stateName: Front_enter_m
+    animation: {fileID: 11400000, guid: 3d88e1b4c61381a44b61eae7b6201f6e, type: 2}
+  - stateName: Front_exit_fm
+    animation: {fileID: 11400000, guid: f6d9aa9f9f2a23448bf78be9515c8da9, type: 2}
+  - stateName: Front_exit_m
+    animation: {fileID: 11400000, guid: b1cee9c98e4da3f4a9a40b0ebc7bf8a6, type: 2}
+  - stateName: Back_crash_Air
+    animation: {fileID: 11400000, guid: d718e7efe4d75bf419dbc7b89feb43ac, type: 2}
+  - stateName: Back_crash_Water
+    animation: {fileID: 11400000, guid: 4528858d5f0c79643b8cb627a7192ee8, type: 2}
+  - stateName: Back_enter_fm
+    animation: {fileID: 11400000, guid: 02f97094e66b32846be9d138b8741699, type: 2}
+  - stateName: Back_enter_m
+    animation: {fileID: 11400000, guid: 61fb7c9238fac344ebf0a2afbaadd150, type: 2}
+  - stateName: Back_exit_fm
+    animation: {fileID: 11400000, guid: 31e1e2fe07968bd44a0f2906171b06db, type: 2}
+  - stateName: Back_exit_m
+    animation: {fileID: 11400000, guid: ae8db7e986cb2374a98d355ac5eeec73, type: 2}
+  - stateName: Back_walk
+    animation: {fileID: 11400000, guid: 89434309d22bbb8459106ccea56aeb4a, type: 2}
+  - stateName: Side_crash_Air
+    animation: {fileID: 11400000, guid: bb5bdcc7db0b51144a2fe723b8f15d38, type: 2}
+  - stateName: Side_crash_Fire
+    animation: {fileID: 11400000, guid: 049e01ea6b062a24e92cc296d201ef7c, type: 2}
+  - stateName: Side_crash_Soil
+    animation: {fileID: 11400000, guid: 64ea86a34115e2444b4de70b4ac740bf, type: 2}
+  - stateName: Side_crash_Water
+    animation: {fileID: 11400000, guid: e5eb198c3f73a6942938f38694f9147f, type: 2}
+  - stateName: Side_enter_fm
+    animation: {fileID: 11400000, guid: e88ab0a9a2e8e284c8eeef9773897f88, type: 2}
+  - stateName: Side_enter_m
+    animation: {fileID: 11400000, guid: bf29a9eb4250e1242b6ad3236a879e2c, type: 2}
+  - stateName: Side_exit_fm
+    animation: {fileID: 11400000, guid: 10cfdd7ff44c01c4e9d58da319199c16, type: 2}
+  - stateName: Side_exit_Soil
+    animation: {fileID: 11400000, guid: 6142b991597d2fc41a8f9aa9dd437700, type: 2}
+  - stateName: Side_exit_Water
+    animation: {fileID: 11400000, guid: 1561fc41f193296418d51c7fe7a69f64, type: 2}
+  - stateName: Side_idle
+    animation: {fileID: 11400000, guid: b30e864d41d81cc4493187b127108bc7, type: 2}
+  - stateName: Side_idle_Soil
+    animation: {fileID: 11400000, guid: 3ff58fba3ca029f42bc5c5d9f5026f85, type: 2}
+  - stateName: Side_walk
+    animation: {fileID: 11400000, guid: ff8452df0e4e7bd4c881d2cc000da47a, type: 2}
+  - stateName: Side_walk_Soil
+    animation: {fileID: 11400000, guid: d5653fda6f740394096158647126eb10, type: 2}
+  - stateName: Back_idle
+    animation: {fileID: 11400000, guid: ac4ea5db5b34b464e886b027565d5b71, type: 2}
+  - stateName: Back_crash_Soil_Fire
+    animation: {fileID: 11400000, guid: 36530fa7169d5924d84426f46057237a, type: 2}
+  - stateName: Back_disappear
+    animation: {fileID: 11400000, guid: e7d14cd016519b54b8ddba3082b076ba, type: 2}
+  - stateName: Side_disappear
+    animation: {fileID: 11400000, guid: c41915d8b0501874f8260d227d97fd03, type: 2}
+  - stateName: Side_disappear_Soil
+    animation: {fileID: 11400000, guid: ebad8574af48d454883e803e29ea11a4, type: 2}
+  transitions: []
+  animationspeed: 0
+--- !u!114 &6304335386131918961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa10e8820f9e1ff4abd807d9725d3798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurposX: 0
+  CurposY: 0
+  moveSpeed: 1
+  LootAmount: 2
+  TimeforWorking: 10
+  spiritElement: 0
+  _dir: 5
+  spiritID: 0
+  saveX: 0
+  saveY: 0
+  isFactory: 0
+  isLoot: 0
+  detection: 0
+--- !u!114 &1547893462773229685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1402bb9579c8d547ae4b24b34dee44f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpiritID: 0
+  SpiritJob: 0
+  SpiritElement: 4
+  type: 
+  SDefaultLife: 100
+  HP: 0
+  SpiritSpeed: 1
+  Work_Efficienty: 0
+--- !u!54 &-6057536512762663111
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &2987368875521967598
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.33
+  m_Height: 0.03
+  m_Direction: 1
+  m_Center: {x: -0.014793247, y: -0.04, z: 0}
+--- !u!114 &-6815071933240930451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782329453051513182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc20d5e917562341a5007777a9d0db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference: {fileID: 310724314950412210}

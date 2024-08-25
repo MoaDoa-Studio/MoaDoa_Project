@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3730036012708402448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6815071933240930451, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: reference
+      value: 
+      objectReference: {fileID: 4002668604676125346}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: baseSkin
+      value: Air_Lv1
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: IdleAnimaitonName
+      value: Front_walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.size
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[10].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: d718e7efe4d75bf419dbc7b89feb43ac, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[10].stateName
+      value: Back_crash_Air
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[11].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 4528858d5f0c79643b8cb627a7192ee8, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[11].stateName
+      value: Back_crash_Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[12].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 02f97094e66b32846be9d138b8741699, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[12].stateName
+      value: Back_enter_fm
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[13].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 61fb7c9238fac344ebf0a2afbaadd150, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[13].stateName
+      value: Back_enter_m
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[14].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 31e1e2fe07968bd44a0f2906171b06db, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[14].stateName
+      value: Back_exit_fm
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[15].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: ae8db7e986cb2374a98d355ac5eeec73, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[15].stateName
+      value: Back_exit_m
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[16].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 89434309d22bbb8459106ccea56aeb4a, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[16].stateName
+      value: Back_walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[17].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: bb5bdcc7db0b51144a2fe723b8f15d38, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[17].stateName
+      value: Side_crash_Air
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[18].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 049e01ea6b062a24e92cc296d201ef7c, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[18].stateName
+      value: Side_crash_Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[19].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 64ea86a34115e2444b4de70b4ac740bf, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[19].stateName
+      value: Side_crash_Soil
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[20].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: e5eb198c3f73a6942938f38694f9147f, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[20].stateName
+      value: Side_crash_Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[21].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: e88ab0a9a2e8e284c8eeef9773897f88, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[21].stateName
+      value: Side_enter_fm
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[22].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: bf29a9eb4250e1242b6ad3236a879e2c, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[22].stateName
+      value: Side_enter_m
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[23].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 10cfdd7ff44c01c4e9d58da319199c16, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[23].stateName
+      value: Side_exit_fm
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[24].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 6142b991597d2fc41a8f9aa9dd437700, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[24].stateName
+      value: Side_exit_Soil
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[25].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 1561fc41f193296418d51c7fe7a69f64, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[25].stateName
+      value: Side_exit_Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[26].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: b30e864d41d81cc4493187b127108bc7, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[26].stateName
+      value: Side_idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[27].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ff58fba3ca029f42bc5c5d9f5026f85, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[27].stateName
+      value: Side_idle_Soil
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[28].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: ff8452df0e4e7bd4c881d2cc000da47a, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[28].stateName
+      value: Side_walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[29].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: d5653fda6f740394096158647126eb10, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[29].stateName
+      value: Side_walk_Soil
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[30].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: ac4ea5db5b34b464e886b027565d5b71, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[30].stateName
+      value: Back_idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[31].animation
+      value: 
+      objectReference: {fileID: 11400000, guid: 36530fa7169d5924d84426f46057237a, type: 2}
+    - target: {fileID: 223681143378521360, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: statesAndAnimations.Array.data[31].stateName
+      value: Back_crash_Soil_Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1541606644205865402, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca8b28611ea7cf64d89b483ed699b307, type: 2}
+    - target: {fileID: 1547893462773229685, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: SpiritID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547893462773229685, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: SpiritElement
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5784416843909364695, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6304335386131918961, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: TimeforWorking
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6405010417836666242, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: _animationName
+      value: Front_walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 6405010417836666242, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: initialSkinName
+      value: Fire_Lv1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6405010417836666242, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3e99635a09ac4cb4f8f86230fb18a760, type: 2}
+    - target: {fileID: 7782329453051513182, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+      propertyPath: m_Name
+      value: Spirit_Fire
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+--- !u!4 &4002668604676125346 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 310724314950412210, guid: 0401cd3d80a29b84db490515a2541d8d, type: 3}
+  m_PrefabInstance: {fileID: 3730036012708402448}
+  m_PrefabAsset: {fileID: 0}
